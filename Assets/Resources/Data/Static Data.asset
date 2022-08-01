@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 158bc627fd7db0f44841e0a3a351e166, type: 3}
+  m_Name: Static Data
+  m_EditorClassIdentifier: 
+  playerInitData: {fileID: 11400000, guid: 9c5b016fbfe9a4d4091135d49f1eaadc, type: 2}
+  harvestData: {fileID: 11400000, guid: e2ea5ade4c78a204f8a646a59f821e55, type: 2}
+  moneyData: {fileID: 11400000, guid: 785a255e0cc7f1741988d0145ba8a097, type: 2}
+  soundsData: {fileID: 11400000, guid: f2be5ae7f39871c4f8a84f11001da51a, type: 2}

@@ -1,0 +1,492 @@
+fileFormatVersion: 2
+guid: 04df17032f97854448a34f140014ef66
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 23
+  mGraphInstanceData:
+  - graphLabel: Pine_leaves
+    prototypeName: Pine_leaves
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Pine_leaves\" label=\"\" >\n </sbspreset>\n"
+    shaderName: Standard
+    materialProperties:
+      shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+      shaderKeywords: _ALPHATEST_ON _MAINTEX _METALLICGLOSSMAP _NORMALMAP _OCCLUSIONMAP
+        _PARALLAXMAP
+      lightmapFlags: 4
+      texEnvs:
+      - name: _BumpMap
+        texture: {fileID: 3629350866861972908, guid: 04df17032f97854448a34f140014ef66,
+          type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailAlbedoMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailMask
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailNormalMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _EmissionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MainTex
+        texture: {fileID: 3240420202950899489, guid: 04df17032f97854448a34f140014ef66,
+          type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MetallicGlossMap
+        texture: {fileID: -1574635646783546166, guid: 04df17032f97854448a34f140014ef66,
+          type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _OcclusionMap
+        texture: {fileID: 1900726143403484708, guid: 04df17032f97854448a34f140014ef66,
+          type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _ParallaxMap
+        texture: {fileID: -9067109403394571713, guid: 04df17032f97854448a34f140014ef66,
+          type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      floats:
+      - name: _BumpScale
+        float: 1
+      - name: _Cutoff
+        float: 0.5
+      - name: _DetailNormalMapScale
+        float: 1
+      - name: _DstBlend
+        float: 0
+      - name: _GlossMapScale
+        float: 1
+      - name: _Glossiness
+        float: 0.5
+      - name: _GlossyReflections
+        float: 1
+      - name: _Metallic
+        float: 0
+      - name: _Mode
+        float: 1
+      - name: _OcclusionStrength
+        float: 1
+      - name: _Parallax
+        float: 0.02
+      - name: _SmoothnessTextureChannel
+        float: 0
+      - name: _SpecularHighlights
+        float: 1
+      - name: _SrcBlend
+        float: 1
+      - name: _UVSec
+        float: 0
+      - name: _ZWrite
+        float: 1
+      colors:
+      - name: _Color
+        color: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 1}
+      - name: _EmissionColor
+        color: {r: 0, g: 0, b: 0, a: 1}
+    outputDescList:
+    - outputName: baseColor
+      identifier: basecolor
+      usageName: baseColor
+      channelStr: baseColor
+      label: Base Color
+      usage: 1
+      bImage: 1
+      bNumerical: 0
+      bLinear: 0
+    - outputName: normal
+      identifier: normal
+      usageName: normal
+      channelStr: normal
+      label: Normal
+      usage: 7
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: roughness
+      identifier: roughness
+      usageName: roughness
+      channelStr: roughness
+      label: Roughness
+      usage: 15
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: metallic
+      identifier: metallic
+      usageName: metallic
+      channelStr: metallic
+      label: Metallic
+      usage: 28
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: opacity
+      identifier: opacity
+      usageName: opacity
+      channelStr: opacity
+      label: opacity
+      usage: 2
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: height
+      identifier: height_1
+      usageName: height
+      channelStr: height
+      label: Height
+      usage: 9
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: ambientOcclusion
+      identifier: ambientOcclusion_1
+      usageName: ambientOcclusion
+      channelStr: ambientOcclusion
+      label: ambientOcclusion
+      usage: 5
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    texturePackingList:
+    - targetName: baseColor
+      components:
+      - sourceName: opacity
+        from: 0
+        to: 3
+    - targetName: normal
+      components:
+      - sourceName: normal
+        from: 0
+        to: 3
+    - targetName: roughness
+      components:
+      - sourceName: roughness
+        from: 0
+        to: 3
+    - targetName: metallic
+      components:
+      - sourceName: smoothness
+        from: 0
+        to: 3
+    - targetName: opacity
+      components:
+      - sourceName: opacity
+        from: 0
+        to: 3
+    - targetName: height
+      components:
+      - sourceName: height
+        from: 0
+        to: 3
+    - targetName: ambientOcclusion
+      components:
+      - sourceName: ambientOcclusion
+        from: 0
+        to: 3
+    textureParameters:
+    - textureName: Pine_leaves - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Pine_leaves - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Pine_leaves - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Pine_leaves - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Pine_leaves - opacity
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Pine_leaves - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Pine_leaves - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList: []
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      textureWidth: 2048
+      textureHeight: 2048
+      textureFormatMode: 0
+      normalCompressed: 0
+      bGenerateOnLoad: 1
+    material: {fileID: -5871920153550965668, guid: 04df17032f97854448a34f140014ef66,
+      type: 3}
+    generatedTextures:
+    - {fileID: 3240420202950899489, guid: 04df17032f97854448a34f140014ef66, type: 3}
+    - {fileID: 3629350866861972908, guid: 04df17032f97854448a34f140014ef66, type: 3}
+    - {fileID: -1574635646783546166, guid: 04df17032f97854448a34f140014ef66, type: 3}
+    - {fileID: -9067109403394571713, guid: 04df17032f97854448a34f140014ef66, type: 3}
+    - {fileID: 1900726143403484708, guid: 04df17032f97854448a34f140014ef66, type: 3}
+  - graphLabel: Pine_leaves_1
+    prototypeName: Pine_leaves
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Pine_leaves\" label=\"\" >\n </sbspreset>\n"
+    shaderName: Standard
+    materialProperties:
+      shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+      shaderKeywords: _ALPHATEST_ON _MAINTEX _METALLICGLOSSMAP _NORMALMAP _OCCLUSIONMAP
+        _PARALLAXMAP
+      lightmapFlags: 4
+      texEnvs:
+      - name: _BumpMap
+        texture: {fileID: -8445605750171969124, guid: 04df17032f97854448a34f140014ef66,
+          type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailAlbedoMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailMask
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailNormalMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _EmissionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MainTex
+        texture: {fileID: 3712837252927563196, guid: 04df17032f97854448a34f140014ef66,
+          type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MetallicGlossMap
+        texture: {fileID: 8574853874526316968, guid: 04df17032f97854448a34f140014ef66,
+          type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _OcclusionMap
+        texture: {fileID: -9140991328424599389, guid: 04df17032f97854448a34f140014ef66,
+          type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _ParallaxMap
+        texture: {fileID: 4302595509611314033, guid: 04df17032f97854448a34f140014ef66,
+          type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      floats:
+      - name: _BumpScale
+        float: 1
+      - name: _Cutoff
+        float: 0.5
+      - name: _DetailNormalMapScale
+        float: 1
+      - name: _DstBlend
+        float: 0
+      - name: _GlossMapScale
+        float: 1
+      - name: _Glossiness
+        float: 0.5
+      - name: _GlossyReflections
+        float: 1
+      - name: _Metallic
+        float: 0
+      - name: _Mode
+        float: 1
+      - name: _OcclusionStrength
+        float: 1
+      - name: _Parallax
+        float: 0.02
+      - name: _SmoothnessTextureChannel
+        float: 0
+      - name: _SpecularHighlights
+        float: 1
+      - name: _SrcBlend
+        float: 1
+      - name: _UVSec
+        float: 0
+      - name: _ZWrite
+        float: 1
+      colors:
+      - name: _Color
+        color: {r: 0.09411765, g: 0.5882353, b: 0.09411765, a: 1}
+      - name: _EmissionColor
+        color: {r: 0, g: 0, b: 0, a: 1}
+    outputDescList:
+    - outputName: baseColor
+      identifier: basecolor
+      usageName: baseColor
+      channelStr: baseColor
+      label: Base Color
+      usage: 1
+      bImage: 1
+      bNumerical: 0
+      bLinear: 0
+    - outputName: normal
+      identifier: normal
+      usageName: normal
+      channelStr: normal
+      label: Normal
+      usage: 7
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: roughness
+      identifier: roughness
+      usageName: roughness
+      channelStr: roughness
+      label: Roughness
+      usage: 15
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: metallic
+      identifier: metallic
+      usageName: metallic
+      channelStr: metallic
+      label: Metallic
+      usage: 28
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: opacity
+      identifier: opacity
+      usageName: opacity
+      channelStr: opacity
+      label: opacity
+      usage: 2
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: height
+      identifier: height_1
+      usageName: height
+      channelStr: height
+      label: Height
+      usage: 9
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: ambientOcclusion
+      identifier: ambientOcclusion_1
+      usageName: ambientOcclusion
+      channelStr: ambientOcclusion
+      label: ambientOcclusion
+      usage: 5
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    texturePackingList:
+    - targetName: baseColor
+      components:
+      - sourceName: opacity
+        from: 0
+        to: 3
+    - targetName: normal
+      components:
+      - sourceName: normal
+        from: 0
+        to: 3
+    - targetName: roughness
+      components:
+      - sourceName: roughness
+        from: 0
+        to: 3
+    - targetName: metallic
+      components:
+      - sourceName: smoothness
+        from: 0
+        to: 3
+    - targetName: opacity
+      components:
+      - sourceName: opacity
+        from: 0
+        to: 3
+    - targetName: height
+      components:
+      - sourceName: height
+        from: 0
+        to: 3
+    - targetName: ambientOcclusion
+      components:
+      - sourceName: ambientOcclusion
+        from: 0
+        to: 3
+    textureParameters:
+    - textureName: Pine_leaves_1 - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Pine_leaves_1 - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Pine_leaves_1 - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Pine_leaves_1 - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Pine_leaves_1 - opacity
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Pine_leaves_1 - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Pine_leaves_1 - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList: []
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      textureWidth: 2048
+      textureHeight: 2048
+      textureFormatMode: 0
+      normalCompressed: 0
+      bGenerateOnLoad: 1
+    material: {fileID: -2445893482020890595, guid: 04df17032f97854448a34f140014ef66,
+      type: 3}
+    generatedTextures:
+    - {fileID: 3712837252927563196, guid: 04df17032f97854448a34f140014ef66, type: 3}
+    - {fileID: -8445605750171969124, guid: 04df17032f97854448a34f140014ef66, type: 3}
+    - {fileID: 8574853874526316968, guid: 04df17032f97854448a34f140014ef66, type: 3}
+    - {fileID: 4302595509611314033, guid: 04df17032f97854448a34f140014ef66, type: 3}
+    - {fileID: -9140991328424599389, guid: 04df17032f97854448a34f140014ef66, type: 3}
